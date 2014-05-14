@@ -4,7 +4,7 @@
 Summary:	Apache Solr PHP Client
 Name:		php-%{pkgname}
 Version:	0.60
-Release:	1
+Release:	2
 License:	New BSD License
 Group:		Development/Languages/PHP
 Source0:	https://solr-php-client.googlecode.com/files/SolrPhpClient.r60.2011-05-04.tgz
@@ -13,10 +13,10 @@ URL:		https://code.google.com/p/solr-php-client/
 BuildRequires:	/usr/bin/php
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.461
-Requires:	php-common >= 4:%{php_min_version}
-Requires:	php-json
-Requires:	php-pcre
-Requires:	php-spl
+Requires:	php(core) >= %{php_min_version}
+Requires:	php(json)
+Requires:	php(pcre)
+Requires:	php(spl)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
