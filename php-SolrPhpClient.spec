@@ -1,6 +1,5 @@
 %define		pkgname	SolrPhpClient
 %define		php_min_version 5.2.0
-%include	/usr/lib/rpm/macros.php
 Summary:	Apache Solr PHP Client
 Name:		php-%{pkgname}
 Version:	0.60
