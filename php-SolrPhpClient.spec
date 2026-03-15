@@ -3,7 +3,7 @@
 Summary:	Apache Solr PHP Client
 Name:		php-%{pkgname}
 Version:	0.60
-Release:	2
+Release:	3
 License:	New BSD License
 Group:		Development/Languages/PHP
 Source0:	https://solr-php-client.googlecode.com/files/SolrPhpClient.r60.2011-05-04.tgz
